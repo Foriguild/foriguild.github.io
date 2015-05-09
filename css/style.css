@@ -1,0 +1,75 @@
+body {
+	background-color: #333;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #C22525;
+	border-color: black;
+}
+
+.btn-primary:hover {
+	background-color: #B80000;
+}
+
+h3 {
+	color: #C22525;
+}
+
+.thumbnail {
+	background-color: #111;
+	border: 1px solid black;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #C22525;
+}
+
+hr {
+	border-top: 1px solid black;
+}
+
+p {
+	color: #fff;
+}
+
+.gprogress {
+	color: #fff;
+}
+
+.carousel-inner {
+	height: 400px;
+}
+
+footer {
+	text-align: center;
+}
+
+.table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
+}
+
+.table tbody tr:hover {
+	background-color: #FFE3E3;
+}
+
+.table tbody tr:nth-child(odd) {
+	background-color: #F4F4F4;
+}
+
+.table tbody tr:nth-child(odd):hover {
+	background-color: #FFE3E3;
+}
+
+#updateBtn:hover {
+	background-color: #E6E6E6;
+}
+
+#kills-table {
+	text-align: left;
+	border-radius: 3px;
+}
+
+#kills tr td:nth-child(1) {
+	color: #337ab7;
+}
