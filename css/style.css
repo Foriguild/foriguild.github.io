@@ -111,3 +111,11 @@ form.contactForm label {
   color: #FFF;
   font-weight: bold;
 }
+
+.newsText {
+  color: #000;
+}
+
+.newsDate {
+  float: right;
+}

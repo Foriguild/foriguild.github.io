@@ -62,26 +62,28 @@
   </nav>
 
   <div class="container">
+    <div class="alert alert-success" role="alert"><b>Hey foristero!</b> Si quieres, puedes escribir tu mail personalmente al correo de
+      <b>Forigirl</b>: <b><a href="mailto:forigirladmision@gmail.com">forigirladmision@gmail.com</a></b></div>
     <div id="test">
-      <form class="contactForm" action="#formPost">
+      <form class="contactForm" method="POST" action="//formspree.io/kustosan@gmail.com">
         <div class="form-group">
           <label for="userName">Nombre *</label>
-          <input type="text" class="form-control" id="userName" placeholder="Intruduce tu nombre">
+          <input type="text" name="name" class="form-control" id="userName" placeholder="Intruduce tu nombre">
         </div>
         <div class="form-group">
           <label for="inputEmail">Dirección Email *</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Introduce tu email">
+          <input type="email" name="_repyto" class="form-control" id="inputEmail" placeholder="Introduce tu email">
         </div>
         <div class="form-group">
           <label for="formConsulta">Consulta *</label>
-          <textarea class="form-control" id="formConsulta" rows="3"></textarea>
+          <textarea type="text" class="form-control" id="formConsulta" rows="3"></textarea>
         </div>
         <div class="checkbox">
           <label>
             <input type="checkbox" id="checkPermisos"> Acepto que un responsable de la guild se ponga en contacto conmigo via email.
           </label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
     </div>
   </div>
