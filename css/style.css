@@ -101,3 +101,12 @@ p.dayTitle{
 	font-weight: bold;
 	line-height: 30px;
 }
+
+form.contactForm{
+
+}
+
+form.contactForm label{
+	color: #FFF;
+	font-weight: bold;
+}
