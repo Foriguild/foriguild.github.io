@@ -73,3 +73,11 @@ footer {
 #kills tr td:nth-child(1) {
 	color: #337ab7;
 }
+
+img.imageRaidProgress{
+	opacity: 0.5;
+}
+
+img.imageRaidProgress:hover{
+	opacity: 1;
+}
