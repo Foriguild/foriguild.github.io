@@ -73,3 +73,40 @@ footer {
 #kills tr td:nth-child(1) {
 	color: #337ab7;
 }
+
+img.imageRaidProgress{
+	opacity: 0.5;
+}
+
+img.imageRaidProgress:hover{
+	opacity: 1;
+}
+
+div.todayDate{
+	background-color: #CCC;
+	height: 30px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+}
+
+div.beforeDate{
+	background-color: #555;
+	height: 30px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+}
+
+p.dayTitle{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+form.contactForm{
+
+}
+
+form.contactForm label{
+	color: #FFF;
+	font-weight: bold;
+}
