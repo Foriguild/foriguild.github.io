@@ -25,7 +25,7 @@ $(document).ready(function() {
       }
       if (val.type == "itemLoot") {
         var myDate = new Date(val.timestamp * 1);
-        $(idSelect).append('<p class="newsText">' + val.character + ' consiguió <a rel="nofollow external" href="http://es.wowhead.com/item=' + val.itemId +
+        $(idSelect).append('<p class="newsText">' + val.character + ' consiguió: <a rel="nofollow external" href="http://es.wowhead.com/item=' + val.itemId +
           '">http://es.wowhead.com/item=' + val.itemId + '</a><span class="newsDate">' + myDate.toLocaleString() + '</span></p>')
         $.getScript("http://static.wowhead.com/widgets/power.js")
         var wowhead_tooltips = {
