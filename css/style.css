@@ -1,112 +1,113 @@
 body {
-	background-color: #333;
+  background-color: #333;
 }
 
 .btn-primary {
-	color: #fff;
-	background-color: #C22525;
-	border-color: black;
+  color: #fff;
+  background-color: #C22525;
+  border-color: black;
 }
 
 .btn-primary:hover {
-	background-color: #B80000;
+  background-color: #B80000;
 }
 
 h3 {
-	color: #C22525;
+  color: #C22525;
 }
 
 .thumbnail {
-	background-color: #111;
-	border: 1px solid black;
+  background-color: #111;
+  border: 1px solid black;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #C22525;
+  color: #C22525;
 }
 
 hr {
-	border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
 p {
-	color: #fff;
+  color: #fff;
 }
 
 .gprogress {
-	color: #fff;
+  color: #fff;
 }
 
 .carousel-inner {
-	height: 400px;
+  height: 400px;
 }
 
 footer {
-	text-align: center;
+  text-align: center;
 }
 
-.table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
-    content: " \25B4\25BE" 
+.table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+  content: " \25B4\25BE"
 }
 
 .table tbody tr:hover {
-	background-color: #FFE3E3;
+  background-color: #FFE3E3;
 }
 
 .table tbody tr:nth-child(odd) {
-	background-color: #F4F4F4;
+  background-color: #F4F4F4;
 }
 
 .table tbody tr:nth-child(odd):hover {
-	background-color: #FFE3E3;
+  background-color: #FFE3E3;
 }
 
 #updateBtn:hover {
-	background-color: #E6E6E6;
+  background-color: #E6E6E6;
 }
 
 #kills-table {
-	text-align: left;
-	border-radius: 3px;
+  text-align: left;
+  border-radius: 3px;
 }
 
 #kills tr td:nth-child(1) {
-	color: #337ab7;
+  color: #337ab7;
 }
 
-img.imageRaidProgress{
-	opacity: 0.5;
+img.imageRaidProgress {
+  opacity: 0.5;
 }
 
-img.imageRaidProgress:hover{
-	opacity: 1;
+img.imageRaidProgress:hover {
+  opacity: 1;
 }
 
-div.todayDate{
-	background-color: #CCC;
-	height: 30px;
-	padding-left: 15px;
-	margin-bottom: 5px;
+div.todayDate {
+  background-color: #CCC;
+  height: 30px;
+  padding-left: 15px;
+  margin-bottom: 5px;
 }
 
-div.beforeDate{
-	background-color: #555;
-	height: 30px;
-	padding-left: 15px;
-	margin-bottom: 5px;
+div.beforeDate {
+  background-color: #555;
+  height: 30px;
+  padding-left: 15px;
+  margin-bottom: 5px;
 }
 
-p.dayTitle{
-	font-size: 15px;
-	font-weight: bold;
-	line-height: 30px;
+p.dayTitle {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
-form.contactForm{
-
+#formConsulta {
+  max-width: 100%;
+  max-height: 400px;
 }
 
-form.contactForm label{
-	color: #FFF;
-	font-weight: bold;
+form.contactForm label {
+  color: #FFF;
+  font-weight: bold;
 }
