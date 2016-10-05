@@ -30,7 +30,7 @@ $(document).ready(function() {
       var charname = val.character.name;
       var charrealm = val.character.realm;
 
-      if (val.character.level == "100") {
+      if (val.character.level >= "100") {
 
         if (val.character.class == "1") {
           val.character.class = "Guerrero";
