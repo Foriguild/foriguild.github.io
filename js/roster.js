@@ -95,6 +95,8 @@ $(document).ready(function() {
 
           $('th').removeAttr("data-sorted")
           $('th').removeAttr("data-sorted-direction")
+          $('#sortilvl').click()
+          $('#sortilvl').click()
 
         })
 
@@ -180,6 +182,8 @@ $("#updateBtn").one("click", function() {
           $('#' + charUpdate.name + 'Ilvl').html(charUpdate.items.averageItemLevel)
           $('th').removeAttr("data-sorted")
           $('th').removeAttr("data-sorted-direction")
+          $('#sortilvl').click()
+          $('#sortilvl').click()
         })
       }
 
