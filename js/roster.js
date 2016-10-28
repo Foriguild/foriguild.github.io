@@ -76,6 +76,11 @@ $(document).ready(function() {
           val.character.class = "Druida";
           classColor = "#FF7D0A"
         };
+        if (val.character.class == "12") {
+          val.character.class = "Cazador de Demonios";
+          classColor = "#a330c9"
+        };
+        
 
         $('#members').append('<tr><td style="border-right:' + classColor + ' solid 10px;"><a href="http://eu.battle.net/wow/es/character/' + val.character.realm + '/' + val.character.name + '/simple">' + val.character.name + '</a></td><td>' + val.character.class + '</td><td>' + val.character.level + '</td><td>' + val.character.realm + '</td><td id="' + val.character.name + 'Ilvl"></td></tr>');
 
@@ -159,6 +164,12 @@ $("#updateBtn").one("click", function() {
         val.character.class = "Druida";
         classColor = "#FF7D0A"
       };
+      if (val.character.class == "12") {
+        val.character.class = "Cazador de Demonios";
+        classColor = "#a330c9"
+      };
+      
+      
 
       if (val.character.level == "100") {
 
