@@ -30,7 +30,7 @@ $(document).ready(function() {
       var charname = val.character.name;
       var charrealm = val.character.realm;
 
-      if (val.character.level >= "100") {
+      if (val.character.level == "110") {
 
         if (val.character.class == "1") {
           val.character.class = "Guerrero";
@@ -171,7 +171,7 @@ $("#updateBtn").one("click", function() {
       
       
 
-      if (val.character.level == "100") {
+      if (val.character.level == "110") {
 
         $('#members').append('<tr><td style="border-right:' + classColor + ' solid 10px;"><a href="http://eu.battle.net/wow/es/character/' + val.character.realm + '/' + val.character.name + '/simple">' + val.character.name + '</a></td><td>' + val.character.class + '</td><td>' + val.character.level + '</td><td>' + val.character.realm + '</td><td id="' + val.character.name + 'Ilvl"></td></tr>');
 
